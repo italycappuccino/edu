@@ -6,7 +6,7 @@
  * italycappuccino@gmail.com
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package edu;
+package com.stock.core;
 
 import static org.junit.Assert.*;
 
@@ -40,6 +40,13 @@ public class IocTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	@Test
+	public void mm(){
+		BeanFactory beanFactory = new ClassPathXmlApplicationContext("classpath*:/appContext.xml");
+		Animal animal = (Animal) beanFactory.getBean("woodpecker");
+		animal.info();
 	}
 
 }

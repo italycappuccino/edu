@@ -6,7 +6,7 @@
  * 
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package edu;
+package com.stock.core;
 
 import static org.junit.Assert.*;
 
@@ -42,6 +42,11 @@ public class AopTest extends AbstractJUnit4SpringContextTests{
 		logHandler.setObj(woodpecker);
 		Animal animalProxy = (Animal) Proxy.newProxyInstance(woodpecker.getClass().getClassLoader(), new Class[]{Animal.class}, logHandler);
 		animalProxy.info();
+	}
+	
+	@Test
+	public void tt(){
+		woodpecker.info();
 	}
 
 }
