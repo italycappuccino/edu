@@ -6,15 +6,15 @@
  * 
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core.service.impl;
+package com.stone.core.service.impl;
 
-import com.stock.core.service.Animal;
+import com.stone.core.service.Animal;
 
 /**
  * @author Peter
  * @create Sep 14, 2014
  */
-public class Cat implements Animal {
+public class Bird implements Animal {
 
 	/* (non-Javadoc)
 	 * @see com.stock.core.service.Animal#info()
@@ -22,7 +22,7 @@ public class Cat implements Animal {
 	@Override
 	public void info() {
 		// TODO Auto-generated method stub
-		System.out.println("this is a white cat.");
+		System.out.println("this is a pink bird.");
 	}
 
 }

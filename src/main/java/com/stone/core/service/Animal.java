@@ -6,7 +6,7 @@
  * 
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core.service;
+package com.stone.core.service;
 
 /**
  * @author Peter

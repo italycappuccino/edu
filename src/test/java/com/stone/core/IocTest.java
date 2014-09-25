@@ -6,7 +6,7 @@
  * italycappuccino@gmail.com
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core;
+package com.stone.core;
 
 import static org.junit.Assert.*;
 
@@ -16,9 +16,9 @@ import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.stock.core.manager.LogHandler;
-import com.stock.core.manager.Woodpecker;
-import com.stock.core.service.Animal;
+import com.stone.core.manager.LogHandler;
+import com.stone.core.manager.Woodpecker;
+import com.stone.core.service.Animal;
 
 /**
  * @author Peter

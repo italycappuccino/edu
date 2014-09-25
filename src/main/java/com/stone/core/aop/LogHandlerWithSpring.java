@@ -6,7 +6,7 @@
  * italycappuccino@gmail.com
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core.aop;
+package com.stone.core.aop;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;

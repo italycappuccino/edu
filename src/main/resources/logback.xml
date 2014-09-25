@@ -8,7 +8,7 @@
      </appender>
       
     <logger name="java.sql" value="info"/>
-    <logger name="com.stock.core" value="debug"/>
+    <logger name="com.stone.core" value="debug"/>
     
     <root value="error">
         <appender-ref ref="STDOUT" />

@@ -6,9 +6,9 @@
  * 
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core.service.impl;
+package com.stone.core.service.impl;
 
-import com.stock.core.service.Animal;
+import com.stone.core.service.Animal;
 
 /**
  * @author Peter

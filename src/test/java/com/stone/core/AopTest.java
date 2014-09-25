@@ -6,7 +6,7 @@
  * 
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core;
+package com.stone.core;
 
 import static org.junit.Assert.*;
 
@@ -15,14 +15,15 @@ import java.lang.reflect.Proxy;
 import javax.annotation.Resource;
 
 
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.stock.core.manager.LogHandler;
-import com.stock.core.service.Animal;
+import com.stone.core.manager.LogHandler;
+import com.stone.core.service.Animal;
 
 /**
  * @author Peter

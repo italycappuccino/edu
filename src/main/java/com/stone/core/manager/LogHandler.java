@@ -6,7 +6,7 @@
  * 
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core.manager;
+package com.stone.core.manager;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

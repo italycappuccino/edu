@@ -6,11 +6,11 @@
  * 
  * @Copyright: 3Stock Inc. All rights reserved.
  */
-package com.stock.core.manager;
+package com.stone.core.manager;
 
 import lombok.Data;
 
-import com.stock.core.service.impl.Bird;
+import com.stone.core.service.impl.Bird;
 
 /**
  * @author Peter
